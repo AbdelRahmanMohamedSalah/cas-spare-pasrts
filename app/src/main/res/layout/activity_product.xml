@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Activities.ActivityProduct">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerProduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.andremion.counterfab.CounterFab
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_local_grocery_store_black_24dp"
+        app:backgroundTint="@color/colorAccent" />
+
+</FrameLayout>
